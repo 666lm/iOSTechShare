@@ -150,7 +150,7 @@ retain count = 0 | 废弃对象 | dealloc(这个是例外，是当retain count =
 其中使用了CF数组而不是NS数组，是因为CF可以兼容ARC。如果在ARC下使用NS的话，其ownership会有比较乱的问题。
 
 当然，现在的版本相对于mikeash的教育版本有所不同，是基于runtime
-的thin wrapper，你可以查看[AutoreleasePoolPage](http://opensource.apple.com/source/objc4/objc4-493.9/runtime/objc-arr.mm)。
+的thin wrapper，你可以查看[AutoreleasePoolPage](http://opensource.apple.com/source/objc4/objc4-493.9/runtime/objc-arr.mm), 另[Objective-C Autorelease Pool 的实现原理](http://blog.leichunfeng.com/blog/2015/05/31/objective-c-autorelease-pool-implementation-principle/#jtss-tsina)。
 
 GNUStep中使用了IMP Caching。加速了`addObject`的调用速度。
 
