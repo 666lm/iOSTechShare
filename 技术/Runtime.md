@@ -126,6 +126,10 @@ Objective-C程序有三种途径和运行时系统交互:
 
 vTable好像是早期的时候，用来加速消息dispatch的。他是IMPs的一个数组。可以查看[understanding-objective-c-runtime](http://cocoasamurai.blogspot.sg/2010/01/understanding-objective-c-runtime.html)。
 
+## Catgory
+
+[Dive into Category](http://tech.meituan.com/DiveIntoCategory.html)
+
 # 相关开源和应用
 
 ## trampoline class
