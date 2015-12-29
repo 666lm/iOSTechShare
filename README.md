@@ -20,6 +20,7 @@
 
 这里是自己想做，但是也可能没比较多的时间做的。供大家参考。
 
-1. Sketch to Xcode, 将Sketch的元素直接拖到Xcode, 变成iOS的元素.
+1. Sketch to Xcode, 将Sketch的元素直接拖到Xcode, 变成iOS的元素. 
+  // Sketch提供的插件机制，可以反射出类，从而操作Sketch。从Sketch->可拖动的元素这个已经完成，剩下这个元素->Xcode。
 2. Dig into Swift 
 3. Docker on iOS
